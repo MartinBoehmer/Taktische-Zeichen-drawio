@@ -87,7 +87,7 @@ for lib in config.sections():
 		##image_data = xml.etree.ElementTree.tostring(svg_root, encoding='utf-8').decode()
 		
 		# So, open the original image source file and read it again as into a string
-		with open(image_source_path, 'r') as image_source_file :
+		with open(image_source_path, mode='r', encoding='utf-8') as image_source_file :
 			image_data = image_source_file.read()
 		
 		# Replace DTD, if present, because it is not tolerated by draw.io
