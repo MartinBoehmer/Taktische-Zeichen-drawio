@@ -1,1 +1,16 @@
-<mxlibrary>[{"data": "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHZpZXdCb3g9IjAgMCAyNTYgMjU2Ij4mI3hhOwk8cGF0aCBkPSJNMTAgNjQgTDEwIDE5MiBMMjQ2IDE5MiBMMjQ2IDY0IEwxMjggMTYgTDEwIDY0IFoiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSI1IiBmaWxsPSJub25lIiAvPiYjeGE7CTxwYXRoIGQ9Ik0xMCA2NSBMMjQ2LDY1IiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS13aWR0aD0iNSIgZmlsbD0ibm9uZSIgLz4mI3hhOzwvc3ZnPg==", "w": 256, "h": 256, "title": "Geb\u00e4ude", "aspect": "fixed"}, {"data": "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHZpZXdCb3g9IjAgMCAyNTYgMjU2Ij4mI3hhOwk8cGF0aCBkPSJNMTAgODAgTDEyOCA0OCBMMjQ2IDgwIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZT0iIzAwMDAwMCIgZmlsbD0ibm9uZSIgLz4mI3hhOzwvc3ZnPg==", "w": 256, "h": 256, "title": "Ortsfest", "aspect": "fixed"}]</mxlibrary>
+<mxlibrary>[
+    {
+        "data": "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHZpZXdCb3g9IjAgMCAyNTYgMjU2Ij4mI3hhOwk8cGF0aCBkPSJNMTAgNjQgTDEwIDE5MiBMMjQ2IDE5MiBMMjQ2IDY0IEwxMjggMTYgTDEwIDY0IFoiIHN0cm9rZT0iIzAwMDAwMCIgc3Ryb2tlLXdpZHRoPSI1IiBmaWxsPSJub25lIiAvPiYjeGE7CTxwYXRoIGQ9Ik0xMCA2NSBMMjQ2LDY1IiBzdHJva2U9IiMwMDAwMDAiIHN0cm9rZS13aWR0aD0iNSIgZmlsbD0ibm9uZSIgLz4mI3hhOzwvc3ZnPg==",
+        "w": 256,
+        "h": 256,
+        "title": "Geb\u00e4ude",
+        "aspect": "fixed"
+    },
+    {
+        "data": "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHZpZXdCb3g9IjAgMCAyNTYgMjU2Ij4mI3hhOwk8cGF0aCBkPSJNMTAgODAgTDEyOCA0OCBMMjQ2IDgwIiBzdHJva2Utd2lkdGg9IjUiIHN0cm9rZT0iIzAwMDAwMCIgZmlsbD0ibm9uZSIgLz4mI3hhOzwvc3ZnPg==",
+        "w": 256,
+        "h": 256,
+        "title": "Ortsfest",
+        "aspect": "fixed"
+    }
+]</mxlibrary>
