@@ -1,7 +1,9 @@
 # Taktische-Zeichen-drawio
-Bibliotheken für draw.io mit taktischen Zeichen des Bevölkerungsschutzes
+Bibliotheken für draw.io mit taktischen Zeichen des Bevölkerungsschutzes.
 
+Das Auswahl und Gruppierung der taktischen Zeichen orientiert sich an dem [Empfehlungen für Taktische Zeichen im Bevölkerungsschutz des BBK](http://www.bbk.bund.de/SharedDocs/Downloads/BBK/DE/FIS/DownloadsRechtundVorschriften/Volltext_Fw_Dv/SKK_DV_102_2012.html)
 
+![Vorschau](https://github.com/MartinBoehmer/Taktische-Zeichen-drawio/raw/master/preview.PNG)
 
 ## Nutzung
 Die Bibliotheken können mit der ![öffentlichen Variante von draw.io](https://www.draw.io/) und dem ![draw.io Confluence Plugin](https://marketplace.atlassian.com/plugins/com.mxgraph.confluence.plugins.diagramly/server/overview) verwendet werden.
@@ -33,9 +35,11 @@ Dieses Projekt nutzt die ![taktischen Zeichen von Jonas Köritz](https://github.
 ### Setup
 Um die Generierung der Bibliotheken selbstständig vorzunehmen und anzupassen, sind folgende Schritte erforderlich:
 1. Clonen dieses Projektes
-2. Clonen des Projektes mit den Symbolen.
+2. Clonen des Projektes mit den Symbolen:
 Dafür kommen das ![Original-Projekt](https://github.com/jonas-koeritz/Taktische-Zeichen) oder ![der Fork](https://github.com/MartinBoehmer/Taktische-Zeichen) in Frage. Das Original-Projekt stellt den aktuellsten Entwicklungsstand der taktischen Zeichen dar. Daher kann es mitunter inkompatibel zum Stand dieses Projektes sein. Der Fork hingegen ist immer kompatibel zum Stand dieses Projektes.
-3. Generierung aufrufen
+3. Pfade konfigurieren:
+Das Skript zur Generierung muss den Pfad zu dem Projekt mit dem Grafikdateien für die taktischen Zeichnen kennen. Dieser ist in der Datei `tz-drawio.ini` in der Property `images.basedir` festgelegt. Standardmäßig wird erwartet, dass sich die unter 1. und 2. geclonten Projekte "nebeneinander" in einem Ordner befinden. Also, z.B. `/home/jdoe/TZ/Taktische-Zeichen` und `/home/jdoe/TZ/Taktische-Zeichen-drawio`.
+4. Generierung aufrufen:
 `python generate-libs.py`
 
 ### Konfiguration
