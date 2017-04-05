@@ -90,8 +90,12 @@ for lib in config.sections():
 		with open(image_source_path, mode='r', encoding='utf-8') as image_source_file :
 			image_data = image_source_file.read()
 		
-		# Replace DTD, if present, because it is not tolerated by draw.io
-		image_data = re.sub(r'<!DOCTYPE[^>]+>\s?', '', image_data)
+		# Replace XML header, because it is not tolerated by draw.io (sad, but true)
+		image_data = re.sub(r'<\?xml[^>]+\?>\s?', '', image_data, flags=re.IGNORECASE)
+		# Replace DTD, if present, because it is not tolerated by draw.io (sad, but true)
+		image_data = re.sub(r'<!DOCTYPE[^>]+>\s?', '', image_data, flags=re.IGNORECASE)
+		# Trim
+		image_data = image_data.strip()
 		# Replace font URL as configured
 		image_data = image_data.replace(font_url_source, font_url_target)
 		# XML-escape line breaks as required by draw.io (otherwise library will not work properly)
