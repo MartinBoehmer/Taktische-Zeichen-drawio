@@ -35,6 +35,8 @@ temp_dir = config.get(settings_section, "temp.dir")
 dist_dir = config.get(settings_section, "dist.dir")
 font_url_source = config.get(settings_section, "font.url.source")
 font_url_target = config.get(settings_section, "font.url.target")
+fontfamily_source = config.get(settings_section, "font_family.source")
+fontfamily_target = config.get(settings_section, "font_family.target")
 debug_mode = config.getboolean(settings_section, "debug_mode")
 
 # Create directories
@@ -94,6 +96,9 @@ for lib in config.sections():
 		image_data = re.sub(r'<\?xml[^>]+\?>\s?', '', image_data, flags=re.IGNORECASE)
 		# Replace DTD, if present, because it is not tolerated by draw.io (sad, but true)
 		image_data = re.sub(r'<!DOCTYPE[^>]+>\s?', '', image_data, flags=re.IGNORECASE)
+		# Replace font familiy, if specified (this may be necessary in case CSS-based font settings are not compatible with some browsers)
+		if fontfamily_source and fontfamily_target:
+			image_data = image_data.replace(fontfamily_source, fontfamily_target)
 		# Trim
 		image_data = image_data.strip()
 		# Replace font URL as configured
