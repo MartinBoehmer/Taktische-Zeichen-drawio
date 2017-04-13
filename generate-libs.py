@@ -18,10 +18,7 @@ import json
 import base64
 import re
 import xml.etree.ElementTree
-
-# Possible feature: Automatically clone GIT repo with images
-#from git import Repo
-#Repo.clone_from("https://github.com/jonas-koeritz/Taktische-Zeichen.git","work",)
+import urllib.parse
 
 # Open configuration
 config = configparser.ConfigParser()
@@ -30,20 +27,22 @@ config.read('tz-drawio.ini', 'utf-8')
 
 # Read settings
 settings_section = 'SETTINGS'
-images_basedir = config.get("SETTINGS", "images.basedir")
+images_basedir = config.get(settings_section, "images.basedir")
 temp_dir = config.get(settings_section, "temp.dir")
 dist_dir = config.get(settings_section, "dist.dir")
+dist_dir_url = config.get(settings_section, "dist.dir.url")
 font_url_source = config.get(settings_section, "font.url.source")
 font_url_target = config.get(settings_section, "font.url.target")
 fontfamily_source = config.get(settings_section, "font_family.source")
 fontfamily_target = config.get(settings_section, "font_family.target")
 debug_mode = config.getboolean(settings_section, "debug_mode")
+shortcut_base_url = config.get(settings_section, "shortcut.base_url")
 
 # Create directories
 os.makedirs(dist_dir, exist_ok=True)
 if debug_mode:
 	os.makedirs(temp_dir, exist_ok=True)
-
+	
 # Loop through sections, each representing a library
 for lib in config.sections():
 
@@ -123,7 +122,7 @@ for lib in config.sections():
 		library_item['title'] = config.get(lib, image)
 		library_item['aspect'] = 'fixed'
 		library_items.append(library_item)
-			
+		
 	# Save libray to file
 	library_path = os.path.join(dist_dir, lib + ".xml")
 	with open(library_path, mode='w', encoding='utf-8') as library_file:
@@ -132,5 +131,19 @@ for lib in config.sections():
 		library_file.write('<mxlibrary>')
 		library_file.write(library_json)
 		library_file.write('</mxlibrary>')
+		
+	# Output shortcut URLs for adding library to draw.io (debug mode only)
+	if debug_mode:
+		library_shortcut_path = os.path.join(temp_dir, lib + ".txt")
+		library_url = dist_dir_url + lib + ".xml"
+		# Note: URLs need to be double-encoded to work (expect transport specification part, e.g. https://)
+		library_url = urllib.parse.quote(library_url, safe='/:')
+		library_url = urllib.parse.quote(library_url)
+		library_shortcut_url = shortcut_base_url + 'U' + library_url
+		with open(library_shortcut_path, mode='w', encoding='utf-8') as library_shotcut_file:
+			library_shotcut_file.write(library_shortcut_url + '\n')
+		# Markup (for README.md)
+		with open(os.path.join(temp_dir, 'shortcuts.md'), mode='a', encoding='utf-8') as shortcuts_markup_file:
+			shortcuts_markup_file.write('- [' + lib + '](' + library_shortcut_url + ')\n')
 
 print('Done.')
