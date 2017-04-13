@@ -9,13 +9,41 @@ Das Auswahl und Gruppierung der taktischen Zeichen orientiert sich an dem [Empfe
 Die Bibliotheken können mit der ![öffentlichen Variante von draw.io](https://www.draw.io/) und dem ![draw.io Confluence Plugin](https://marketplace.atlassian.com/plugins/com.mxgraph.confluence.plugins.diagramly/server/overview) verwendet werden.
 
 ### draw.io
-Die Bibliotheken können auf zwei Wege eingebunden werden:
-- per URL der Bibliotheksdateien aus diesem Projekt (Unterordner libs)
-- durch Hochladen einer lokalen (und ggf. angepassen) Kopie der Bibliotheksdateien
+Die Bibliotheken können auf drei Wege eingebunden werden:
+- A. per URL der Bibliotheksdateien aus diesem Projekt (Unterordner libs)
+- B. durch Hochladen einer lokalen (und ggf. angepassen) Kopie der Bibliotheksdateien
+- C. durch einen Paramter im Link zu draw.io
+
+Varianten A & B:
 
 Das Vorgehen ist simpel:
 1. draw.io öffnen
 2. File -> Open Library from -> URL / Device
+
+Variante C:
+
+Die nachfolgenden Links fügen die jeweilige Bibliothek automatisch zu draw.io hinzu. Leider ist kein 'alle hinzufügen' möglich, das die URL dafür zu lang würde. Zudem wird der Bibliotheksname leider mit dem Dateinamen der codierten URL angezeigt, d.h. Leerzeichen werden z.B. als '%20' dargestellt (m.E. Bug in draw.io).
+- [TZ Führungseinrichtungen und -einheiten](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520F%25C3%25BChrungseinrichtungen%2520und%2520-einheiten.xml)
+- [TZ Führungskräfte und Sonderfunktionen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520F%25C3%25BChrungskr%25C3%25A4fte%2520und%2520Sonderfunktionen.xml)
+- [TZ Personen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Personen.xml)
+- [TZ Ereignisse](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Ereignisse.xml)
+- [TZ Information und Kommunikation](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Information%2520und%2520Kommunikation.xml)
+- [TZ Allgemeine Fahrzeuge](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Allgemeine%2520Fahrzeuge.xml)
+- [TZ Bewegung und Marsch](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Bewegung%2520und%2520Marsch.xml)
+- [TZ Allgemeine Einrichtungen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Allgemeine%2520Einrichtungen.xml)
+- [TZ Einsatzeinheit](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Einsatzeinheit.xml)
+- [TZ Rettungs- und Sanitätswesen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Rettungs-%2520und%2520Sanit%25C3%25A4tswesen.xml)
+- [TZ Betreuungswesen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Betreuungswesen.xml)
+- [TZ Gefahren und Schaden](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Gefahren%2520und%2520Schaden.xml)
+- [TZ Maßnahmen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Ma%25C3%259Fnahmen.xml)
+- [TZ FW Einheiten und Personen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520FW%2520Einheiten%2520und%2520Personen.xml)
+- [TZ FW Fahrzeuge](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520FW%2520Fahrzeuge.xml)
+- [TZ FW Einrichtungen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520FW%2520Einrichtungen.xml)
+- [TZ THW Einheiten und Personen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520THW%2520Einheiten%2520und%2520Personen.xml)
+- [TZ THW Fahrzeuge](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520THW%2520Fahrzeuge.xml)
+- [TZ THW Einrichtungen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520THW%2520Einrichtungen.xml)
+- [TZ Bundeswehr Einheiten und Personen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Bundeswehr%2520Einheiten%2520und%2520Personen.xml)
+- [TZ Polizei Einheiten und Personen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Polizei%2520Einheiten%2520und%2520Personen.xml)
 
 ### draw.io Confluence Plugin
 1. Bibliotheksdateien (Unterordner libs) herunterladen
