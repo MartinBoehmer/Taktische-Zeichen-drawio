@@ -6,7 +6,7 @@ Das Auswahl und Gruppierung der taktischen Zeichen orientiert sich an dem [Empfe
 ![Vorschau](https://github.com/MartinBoehmer/Taktische-Zeichen-drawio/raw/master/preview.PNG)
 
 ## Nutzung
-Die Bibliotheken können mit der ![öffentlichen Variante von draw.io](https://www.draw.io/) und dem ![draw.io Confluence Plugin](https://marketplace.atlassian.com/plugins/com.mxgraph.confluence.plugins.diagramly/server/overview) verwendet werden.
+Die Bibliotheken können mit der [öffentlichen Variante von draw.io](https://www.draw.io/) und dem [draw.io Confluence Plugin](https://marketplace.atlassian.com/plugins/com.mxgraph.confluence.plugins.diagramly/server/overview) verwendet werden.
 
 ### draw.io
 Die Bibliotheken können auf drei Wege eingebunden werden:
@@ -56,7 +56,7 @@ Die nachfolgenden Links fügen die jeweilige Bibliothek automatisch zu draw.io h
 7. Speichern
 
 ## Fehlende Zeichen
-Dieses Projekt nutzt die ![taktischen Zeichen von Jonas Köritz](https://github.com/jonas-koeritz/Taktische-Zeichen) und transformiert sie zu draw.io Bibliotheken. Fehlende Zeichen sollten daher dem referenzierten Projekt hinzugefügt werden. Details finden sich auf dessen Webseite.
+Dieses Projekt nutzt die [taktischen Zeichen von Jonas Köritz](https://github.com/jonas-koeritz/Taktische-Zeichen) und transformiert sie zu draw.io Bibliotheken. Fehlende Zeichen sollten daher dem referenzierten Projekt hinzugefügt werden. Details finden sich auf dessen Webseite.
 
 ## Anpassung & Generierung
 
@@ -64,7 +64,7 @@ Dieses Projekt nutzt die ![taktischen Zeichen von Jonas Köritz](https://github.
 Um die Generierung der Bibliotheken selbstständig vorzunehmen und anzupassen, sind folgende Schritte erforderlich:
 1. Clonen dieses Projektes
 2. Clonen des Projektes mit den Symbolen:
-Dafür kommen das ![Original-Projekt](https://github.com/jonas-koeritz/Taktische-Zeichen) oder ![der Fork](https://github.com/MartinBoehmer/Taktische-Zeichen) in Frage. Das Original-Projekt stellt den aktuellsten Entwicklungsstand der taktischen Zeichen dar. Daher kann es mitunter inkompatibel zum Stand dieses Projektes sein. Der Fork hingegen ist immer kompatibel zum Stand dieses Projektes.
+Dafür kommen das [Original-Projekt](https://github.com/jonas-koeritz/Taktische-Zeichen) oder [der Fork](https://github.com/MartinBoehmer/Taktische-Zeichen) in Frage. Das Original-Projekt stellt den aktuellsten Entwicklungsstand der taktischen Zeichen dar. Daher kann es mitunter inkompatibel zum Stand dieses Projektes sein. Der Fork hingegen ist immer kompatibel zum Stand dieses Projektes.
 3. Pfade konfigurieren:
 Das Skript zur Generierung muss den Pfad zu dem Projekt mit dem Grafikdateien für die taktischen Zeichnen kennen. Dieser ist in der Datei `tz-drawio.ini` in der Property `images.basedir` festgelegt. Standardmäßig wird erwartet, dass sich die unter 1. und 2. geclonten Projekte "nebeneinander" in einem Ordner befinden. Also, z.B. `/home/jdoe/TZ/Taktische-Zeichen` und `/home/jdoe/TZ/Taktische-Zeichen-drawio`.
 4. Generierung aufrufen:
