@@ -1,5 +1,8 @@
 Bibliotheken für draw.io mit taktischen Zeichen des Bevölkerungsschutzes 
 Copyright 2017 Martin Böhmer.
 
-This product includes images files created by
+This product includes image files created by
 Jonas Köritz (https://github.com/jonas-koeritz/Taktische-Zeichen).
+
+This product includes the font 'Robot Slab Bold' created by
+Christian Robertson (https://fonts.google.com/specimen/Roboto+Slab)

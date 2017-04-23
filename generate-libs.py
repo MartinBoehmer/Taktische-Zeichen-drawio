@@ -31,8 +31,6 @@ images_basedir = config.get(settings_section, "images.basedir")
 temp_dir = config.get(settings_section, "temp.dir")
 dist_dir = config.get(settings_section, "dist.dir")
 dist_dir_url = config.get(settings_section, "dist.dir.url")
-font_url_source = config.get(settings_section, "font.url.source")
-font_url_target = config.get(settings_section, "font.url.target")
 fontfamily_source = config.get(settings_section, "font_family.source")
 fontfamily_target = config.get(settings_section, "font_family.target")
 debug_mode = config.getboolean(settings_section, "debug_mode")
@@ -57,6 +55,7 @@ for lib in config.sections():
 		
 	# Loop through images in section
 	for image in config[lib]:
+		
 		# Determine paths
 		image_source_path = os.path.join(images_basedir, image)
 		image_target_path = os.path.join(temp_dir, image)
@@ -72,6 +71,7 @@ for lib in config.sections():
 		namespaces = {'svg': 'http://www.w3.org/2000/svg'}
 		image_xml = xml.etree.ElementTree.parse(image_source_path);
 		svg_root = image_xml.getroot()
+		
 		# Get image dimensions from XML
 		image_width = int(svg_root.attrib.get('width', -1))
 		assert (image_width > 0), "Width unset for image: " + image_source_path
@@ -97,11 +97,14 @@ for lib in config.sections():
 		image_data = re.sub(r'<!DOCTYPE[^>]+>\s?', '', image_data, flags=re.IGNORECASE)
 		# Replace font familiy, if specified (this may be necessary in case CSS-based font settings are not compatible with some browsers)
 		if fontfamily_source and fontfamily_target:
+			# Remove style definitions related to the font famility to be replaced (smaller symbol file)
+			image_data = re.sub(r'\@font-face[ ]*\{[^\}]+' + fontfamily_source + '[^\}]+\}', '', image_data, flags=re.IGNORECASE)
 			image_data = image_data.replace(fontfamily_source, fontfamily_target)
+			# Alternative, more restricted replacment
+			#image_data = re.sub(r'(font-family[ ]*=[ ]*)"' + fontfamily_source + '"', r'\1"' + fontfamily_target + '"', image_data, flags=re.IGNORECASE)
+		
 		# Trim
 		image_data = image_data.strip()
-		# Replace font URL as configured
-		image_data = image_data.replace(font_url_source, font_url_target)
 		# XML-escape line breaks as required by draw.io (otherwise library will not work properly)
 		image_data = image_data.replace("\n", "&#xa;")
 		# Add viewBox, if found missing
