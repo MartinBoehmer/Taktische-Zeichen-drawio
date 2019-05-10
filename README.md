@@ -22,7 +22,8 @@ Das Vorgehen ist simpel:
 
 Variante C:
 
-Die nachfolgenden Links fügen die jeweilige Bibliothek automatisch zu draw.io hinzu. Leider ist kein 'alle hinzufügen' möglich, das die URL dafür zu lang würde. Zudem wird der Bibliotheksname leider mit dem Dateinamen der codierten URL angezeigt, d.h. Leerzeichen werden z.B. als '%20' dargestellt (m.E. Bug in draw.io).
+Die nachfolgenden Links fügen die jeweilige Bibliothek automatisch zu draw.io hinzu. Leider ist kein 'alle hinzufügen' möglich, das die URL dafür zu lang würde. Zudem wird der Bibliotheksname leider mit dem Dateinamen der codierten URL angezeigt, d.h. Leerzeichen werden z.B. als '%20' dargestellt (m.E. Bug in draw.io). Es gibt aber eine Uber-Bibliothek, die alle Zeichen enhält.
+- [Taktische Zeichen (Uber-Bibliothek mit allen Zeichen)](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/Taktische%20Zeichen.xml)
 - [TZ Führungseinrichtungen und -einheiten](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520F%25C3%25BChrungseinrichtungen%2520und%2520-einheiten.xml)
 - [TZ Führungskräfte und Sonderfunktionen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520F%25C3%25BChrungskr%25C3%25A4fte%2520und%2520Sonderfunktionen.xml)
 - [TZ Personen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Personen.xml)
@@ -76,7 +77,7 @@ Die Auswahl, Gruppierung und Beschriftung der taktischen Zeichen und der Bibliot
 
 ## Lizenz / License
 
-Copyright 2017-2018 Martin Böhmer
+Copyright 2017-2019 Martin Böhmer
 
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use these files except in compliance with the License.
 You may obtain a copy of the License at http://www.apache.org/licenses/LICENSE-2.0
