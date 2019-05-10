@@ -35,11 +35,14 @@ fontfamily_source = config.get(settings_section, "font_family.source")
 fontfamily_target = config.get(settings_section, "font_family.target")
 debug_mode = config.getboolean(settings_section, "debug_mode")
 shortcut_base_url = config.get(settings_section, "shortcut.base_url")
+uber_lib_name = config.get(settings_section, "uber_lib.name")
 
 # Create directories
 os.makedirs(dist_dir, exist_ok=True)
 if debug_mode:
 	os.makedirs(temp_dir, exist_ok=True)
+	
+uber_library_items = []
 	
 # Loop through sections, each representing a library
 for lib in config.sections():
@@ -134,6 +137,8 @@ for lib in config.sections():
 		library_file.write('<mxlibrary>')
 		library_file.write(library_json)
 		library_file.write('</mxlibrary>')
+	# Add library items to uber lib
+	uber_library_items.extend(library_items)
 		
 	# Output shortcut URLs for adding library to draw.io (debug mode only)
 	if debug_mode:
@@ -148,5 +153,18 @@ for lib in config.sections():
 		# Markup (for README.md)
 		with open(os.path.join(temp_dir, 'shortcuts.md'), mode='a', encoding='utf-8') as shortcuts_markup_file:
 			shortcuts_markup_file.write('- [' + lib + '](' + library_shortcut_url + ')\n')
+			
+	print()
 
+# Save uber lib
+print('Generating uber library: ' + uber_lib_name)
+uber_library_path = os.path.join(dist_dir, uber_lib_name + ".xml")
+with open(uber_library_path, mode='w', encoding='utf-8') as library_file:
+	json_indent = 4 if debug_mode else None
+	library_json = json.dumps(uber_library_items, indent=json_indent)
+	library_file.write('<mxlibrary>')
+	library_file.write(library_json)
+	library_file.write('</mxlibrary>')
+
+print()
 print('Done.')
