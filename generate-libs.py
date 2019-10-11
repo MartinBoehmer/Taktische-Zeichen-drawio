@@ -112,7 +112,7 @@ for lib in config.sections():
 		image_data = image_data.replace("\n", "&#xa;")
 		# Add viewBox, if found missing
 		if not image_has_viewbox:
-			image_data = re.sub(r'(<svg[^>]+)>', r"\1" + ' viewBox="' + image_viewbox + '">', image_data)
+			image_data = re.sub(r'(<svg[^>]+)>', r"\1" + ' viewBox="' + image_viewbox + '">', image_data, 1)
 		
 		# Output modified image, when in debug mode
 		if debug_mode:
