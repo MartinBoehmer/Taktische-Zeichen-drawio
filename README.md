@@ -48,10 +48,10 @@ Die nachfolgenden Links fügen die jeweilige Bibliothek automatisch zu draw.io h
 - [TZ BW Fahrzeuge](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520BW%2520Fahrzeuge.xml)
 - [TZ POL ZOLL Einheiten und Personen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520POL%2520ZOLL%2520Einheiten%2520und%2520Personen.xml)
 - [TZ POL ZOLL Fahrzeuge](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520POL%2520ZOLL%2520Fahrzeuge.xml)
-- [Rettungshundewesen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Rettungshundewesen.xml)
-- [Wasserrettung](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Wasserrettung.xml)
-- [Tiere](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Tiere.xml)
-- [Veterinärwesen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Veterin%25C3%25A4rwesen.xml)
+- [TZ Rettungshundewesen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Rettungshundewesen.xml)
+- [TZ Wasserrettung](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Wasserrettung.xml)
+- [TZ Tiere](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Tiere.xml)
+- [TZ Veterinärwesen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Veterin%25C3%25A4rwesen.xml)
 
 
 ### draw.io Confluence Plugin
