@@ -1,0 +1,23 @@
+<mxlibrary>[
+    {
+        "data": "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHZpZXdCb3g9IjAgMCAyNTYgMjU2Ij4mI3hhOwk8cGF0aCBkPSJNNTAgNjQgbDI1IDAgTDEyOCAxOTIgTDE4MSA2NCBsMjUgMCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2U9IiMwMDAwMDAiIGZpbGw9Im5vbmUiIC8+JiN4YTs8L3N2Zz4=",
+        "w": 256,
+        "h": 256,
+        "title": "Tier",
+        "aspect": "fixed"
+    },
+    {
+        "data": "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHZpZXdCb3g9IjAgMCAyNTYgMjU2Ij4mI3hhOwk8cGF0aCBkPSJNNTAgNjQgbDI1IDAgTDEyOCAxOTIgTDE4MSA2NCBsMjUgMCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2U9IiMwMDAwMDAiIGZpbGw9Im5vbmUiIC8+JiN4YTsJPHBhdGggZD0iTTEyOCA0MCBsMCAxMDAiIHN0cm9rZS13aWR0aD0iNSIgc3Ryb2tlPSIjMDAwMDAwIiBmaWxsPSJub25lIiAvPiYjeGE7PC9zdmc+",
+        "w": 256,
+        "h": 256,
+        "title": "Verletztes Tier",
+        "aspect": "fixed"
+    },
+    {
+        "data": "data:image/svg+xml;base64,PHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjI1NiIgaGVpZ2h0PSIyNTYiIHZpZXdCb3g9IjAgMCAyNTYgMjU2Ij4mI3hhOwk8cGF0aCBkPSJNNTAgNjQgbDI1IDAgTDEyOCAxOTIgTDE4MSA2NCBsMjUgMCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2U9IiMwMDAwMDAiIGZpbGw9Im5vbmUiIC8+JiN4YTsJPHBhdGggZD0iTTEyOCA0MCBsMCAxMDAgTTExMCA2NCBsMzYgMCIgc3Ryb2tlLXdpZHRoPSI1IiBzdHJva2U9IiMwMDAwMDAiIGZpbGw9Im5vbmUiIC8+JiN4YTs8L3N2Zz4=",
+        "w": 256,
+        "h": 256,
+        "title": "Totes Tier",
+        "aspect": "fixed"
+    }
+]</mxlibrary>

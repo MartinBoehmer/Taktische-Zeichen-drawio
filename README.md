@@ -45,7 +45,14 @@ Die nachfolgenden Links fügen die jeweilige Bibliothek automatisch zu draw.io h
 - [TZ THW Fahrzeuge](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520THW%2520Fahrzeuge.xml)
 - [TZ THW Einrichtungen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520THW%2520Einrichtungen.xml)
 - [TZ BW Einheiten und Personen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520BW%2520Einheiten%2520und%2520Personen.xml)
-- [TZ POL Einheiten und Personen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520POL%2520Einheiten%2520und%2520Personen.xml)
+- [TZ BW Fahrzeuge](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520BW%2520Fahrzeuge.xml)
+- [TZ POL ZOLL Einheiten und Personen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520POL%2520ZOLL%2520Einheiten%2520und%2520Personen.xml)
+- [TZ POL ZOLL Fahrzeuge](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520POL%2520ZOLL%2520Fahrzeuge.xml)
+- [Rettungshundewesen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Rettungshundewesen.xml)
+- [Wasserrettung](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Wasserrettung.xml)
+- [Tiere](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Tiere.xml)
+- [Veterinärwesen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Veterin%25C3%25A4rwesen.xml)
+
 
 ### draw.io Confluence Plugin
 1. Bibliotheksdateien (Unterordner libs) herunterladen
