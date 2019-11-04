@@ -52,6 +52,7 @@ Die nachfolgenden Links fügen die jeweilige Bibliothek automatisch zu draw.io h
 - [TZ Wasserrettung](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Wasserrettung.xml)
 - [TZ Tiere](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Tiere.xml)
 - [TZ Veterinärwesen](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Veterin%25C3%25A4rwesen.xml)
+- [TZ Kommunale Fahrzeuge](https://www.draw.io/?splash=0&clibs=Uhttps%3A//raw.githubusercontent.com/MartinBoehmer/Taktische-Zeichen-drawio/master/libs/TZ%2520Kommunale%2520Fahrzeuge.xml)
 
 
 ### draw.io Confluence Plugin
