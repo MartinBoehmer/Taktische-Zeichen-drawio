@@ -77,9 +77,15 @@ for lib in config.sections():
 		
 		# Get image dimensions from XML
 		image_width = int(svg_root.attrib.get('width', -1))
-		assert (image_width > 0), "Width unset for image: " + image_source_path
 		image_height = int(svg_root.attrib.get('height', -1))
-		assert (image_height > 0), "Height unset for image: " + image_source_path
+		if image_width <= 0 and image_height > 0:
+			image_width = image_height
+			svg_root.attrib['width'] = image_width
+		elif image_height <= 0 and image_width > 0:
+			image_height = image_width
+			svg_root.attrib['height'] = image_height
+		elif image_width + image_height <= 0:
+			assert (False), "Width and height unset for image: " + image_source_path
 		# Set viewbox, if not set (required by draw.io)
 		image_viewbox = svg_root.attrib.get('viewBox', '')
 		image_has_viewbox = (image_viewbox != '')
