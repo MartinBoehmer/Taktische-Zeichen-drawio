@@ -56,14 +56,14 @@ for file in svg_files:
 	physical_images.add(normalized_filename)
 
 # Determine images in config file with no physical match
-broken_references = config_images.difference(physical_images)
+broken_references = sorted(config_images.difference(physical_images))
 print()
 print('Broken config references: ')
 for image in broken_references:
 	print('|- broken: ' + image)
 
 # Determine new images
-new_images = physical_images.difference(config_images)
+new_images = sorted(physical_images.difference(config_images))
 print()
 print('New file not considered in config')
 for image in new_images:
